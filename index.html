@@ -2,42 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOLO</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
- 
+    <title>Say yes po ako na to o</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-   
-    <div class="container mx-auto">
-       
-        <h1 class="text-2xl" id="init">Hey Jas👋, Can I Ask You Something?</h1>
-        <button onclick="startQuestions()" id="que">Sure, Ask Away!</button>
-
-        <div id="questions" style="display: none;">
-            <h1 class="text-2xl mt-8">Question 1:</h1>
-            <p>Do you know that i like you?</p>
-            <button onclick="answerYes()">Yes</button>
-            <button onclick="answerNo()" class="no">No</button>
-        </div>
-
-        <div id="message" style="display: none;">
-           
-            <p id="messageText"></p>
+    <div class="wrapper">
+        <h2 class="question">Jas, Can we go out sometimes?</h2>
+        <img class="gif" alt="gif" src="https://media0.giphy.com/media/t8Lo2mPAzOcmVTgtGe/giphy.gif?cid=6c09b952231uyrnduhdsf4wqnxz03rv9wx3ni5sm0zolrxz3&ep=v1_stickers_related&rid=giphy.gif&ct=s"/>
+        <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="no-btn">No</button>
         </div>
     </div>
-
-    <canvas id="confetti-canvas">
-   </canvas>
-
-
-    <footer class="text-center mt-8">
-        Made with ❤️ by <a href="http://www.koushith.com">Zean</a>
-    </footer>
-   
-    <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
-    <script src="script.js" ></script>
+    <script src="script.js"></script>
 </body>
 </html>
